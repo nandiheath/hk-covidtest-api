@@ -1,0 +1,12 @@
+{
+  "name": "hk-covidtest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nandiheath/hk-covidtest-api.git",
+  "author": "Nandi Wong <nandi0315@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34"
+  }
+}
