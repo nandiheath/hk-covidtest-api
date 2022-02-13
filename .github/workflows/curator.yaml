@@ -1,0 +1,34 @@
+name: Archive Json files
+
+on:
+  push: {}
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: 'gh-pages'
+      - name: Use Node.js 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+            .cache
+            public
+          key: ${{ runner.os }}-nodejs-modules-${{ hashFiles('**/yarn.lock') }}-v-${{ hashFiles('*.js') }}-curator
+      - run: yarn install --frozen-lockfile
+      - run: |
+          node curator.js && ls -al
+          # setup github users
+          git config --global user.name "gha-bot-curator"
+          git config --global user.email "gha-bot-curator[bot]@users.noreply.github.com"
+          git add .
+          git commit -am "compress histroical data"
+          git push
+

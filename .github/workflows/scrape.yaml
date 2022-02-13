@@ -1,7 +1,9 @@
 name: Build And Deploy
 
 on:
-  push: {}
+  push:
+    branches:
+      - main
   schedule:
     - cron: "*/5 * * * *"
 jobs:
@@ -19,14 +21,14 @@ jobs:
             **/node_modules
             .cache
             public
-          key: ${{ runner.os }}-nodejs-${{ matrix.node-version }}-modules-${{ hashFiles('**/yarn.lock') }}-v-${{ hashFiles('src/**/*.js') }}-deploy-v2
+          key: ${{ runner.os }}-nodejs-modules-${{ hashFiles('**/yarn.lock') }}-v-${{ hashFiles('lib/*.js') }}-deploy-v2
       - run: yarn install --frozen-lockfile
-      - run: node index.js && ls -al publish
+      - run: node index.js
       - name: Deploy to Github Page
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish
           keep_files: true
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: 'gha-bot-deployer[bot]'
+          user_email: 'gha-bot-deployer[bot]@users.noreply.github.com'
