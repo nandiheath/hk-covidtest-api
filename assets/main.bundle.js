@@ -42234,7 +42234,7 @@ function init () {
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"metadata\": {\n     \"updated_at\": \"2022-02-14T08:12:25\"\n  },\n  \"data\": [{\n      \"centre_id\": 1,\n      \"name\": \"灣仔禮頓山社區會堂\",\n      \"linkname\": \"< 預約 >\",\n      \"linkhref\": \"https://booking.communitytest.gov.hk/form/index_tc.jsp\",\n      \"region\": \"\",\n      \"district\": \"灣仔區\",\n      \"availabilities\": [\n        {\n          \"date\": \"14/02\",\n          \"is_available\": false,\n          \"text\": \"預約名額已滿\"\n        }]\n  }]\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  \"metadata\": {\n     \"updated_at\": \"2022-02-14T08:12:25\"\n  },\n  \"data\": [{\n    \"centre_id\": 3,\n    \"name\": \"南區利東社區會堂\",\n    \"ticket_start\": 266,\n    \"ticket_end\": 315,\n    \"ticket_now\": 420,\n    \"ticket_update\": 1644813066276,\n    \"updated_at\": 1644813005235\n },]\n}",
           "type": "json"
         }
       ]
@@ -42254,7 +42254,7 @@ function init () {
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "Mon Feb 14 2022 04:53:27 GMT+0000 (Coordinated Universal Time)",
+    "time": "Mon Feb 14 2022 04:56:17 GMT+0000 (Coordinated Universal Time)",
     "url": "https://apidocjs.com",
     "version": "0.50.4"
   }
