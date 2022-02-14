@@ -27,13 +27,13 @@ const main = async () => {
         data,
       };
       fs.writeFileSync(file, JSON.stringify(output, null, 2));
-      const symlinkPath = path.join(OUTPUT_DIR, lang, "gov.json");
+      const symlinkPath = path.join(OUTPUT_DIR, lang, "booking.json");
       await mkdirp(path.join(OUTPUT_DIR, lang));
       if (fs.existsSync(symlinkPath)) {
         fs.unlinkSync(symlinkPath);
       }
       fs.symlinkSync(
-        path.join("..", date, lang, "booking", `${time}.json`),
+        path.join("..", date, lang, "gov", `${time}.json`),
         symlinkPath
       );
     } catch (error) {
