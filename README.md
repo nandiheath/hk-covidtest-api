@@ -1,10 +1,9 @@
 # hk-covidtest-api
 Scrape data from different source and publish to GH Pages as API
 
-## APIs
+## API Doc
 
-- https://nandiheath.github.io/hk-covidtest-api/gov.json
-- [TODO]: https://nandiheath.github.io/hk-covidtest-api/gulu.json
+- https://nandiheath.github.io/hk-covidtest-api
 
 ## Development
 
