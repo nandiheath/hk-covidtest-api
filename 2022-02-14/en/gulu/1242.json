@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updated_at": "2022-02-14T12:42:16"
+    "updated_at": "2022-02-14T12:42:51"
   },
   "data": [
     {
@@ -26,8 +26,8 @@
       "name": "Maple Street Playground Mobile Specimen Collection Station",
       "ticket_start": 1867,
       "ticket_end": 1916,
-      "ticket_now": 1946,
-      "ticket_update": 1644813740968,
+      "ticket_now": 1949,
+      "ticket_update": 1644813770986,
       "updated_at": 1644813649547
     },
     {
@@ -71,8 +71,8 @@
       "name": "Tsz Wan Shan Community Hall Mobile Specimen Collection Station",
       "ticket_start": 801,
       "ticket_end": 850,
-      "ticket_now": 1072,
-      "ticket_update": 1644813739924,
+      "ticket_now": 1077,
+      "ticket_update": 1644813776961,
       "updated_at": 1644813615182
     },
     {
@@ -98,8 +98,8 @@
       "name": "Cheung Sha Wan Sports Centre Mobile Specimen Collection Station",
       "ticket_start": 761,
       "ticket_end": 800,
-      "ticket_now": 1699,
-      "ticket_update": 1644813741870,
+      "ticket_now": 1704,
+      "ticket_update": 1644813778907,
       "updated_at": 1644813462936
     },
     {
@@ -114,20 +114,20 @@
     {
       "centre_id": -1,
       "name": "Kin Sang Community Hall Mobile Specimen Collection Station",
-      "ticket_start": 950,
-      "ticket_end": 999,
-      "ticket_now": 1465,
-      "ticket_update": 1644813711934,
-      "updated_at": 1644813072960
+      "ticket_start": 1000,
+      "ticket_end": 1049,
+      "ticket_now": 1466,
+      "ticket_update": 1644813769991,
+      "updated_at": 1644813777366
     },
     {
       "centre_id": -1,
       "name": "Siu Lun Community Hall Community Testing Centre",
-      "ticket_start": 584,
-      "ticket_end": 585,
+      "ticket_start": 586,
+      "ticket_end": 587,
       "ticket_now": 602,
       "ticket_update": 1644808374000,
-      "updated_at": 1644813457585
+      "updated_at": 1644813773835
     },
     {
       "centre_id": 24,
@@ -161,8 +161,8 @@
       "name": "Soccer Pitch, Sun Chui Estate, Tai Wai Mobile Specimen Collection Station",
       "ticket_start": 581,
       "ticket_end": 630,
-      "ticket_now": 2010,
-      "ticket_update": 1644813743924,
+      "ticket_now": 2015,
+      "ticket_update": 1644813777957,
       "updated_at": 1644813507760
     },
     {
@@ -179,18 +179,18 @@
       "name": "On Ting/Yau Oi Community Centre Mobile Specimen Collection Station",
       "ticket_start": 1702,
       "ticket_end": 1711,
-      "ticket_now": 1751,
-      "ticket_update": 1644813738913,
+      "ticket_now": 1753,
+      "ticket_update": 1644813768937,
       "updated_at": 1644813737292
     },
     {
       "centre_id": -1,
       "name": "Tin Shui Sports Centre Mobile Specimen Collection Station",
-      "ticket_start": 951,
-      "ticket_end": 1000,
-      "ticket_now": 1382,
-      "ticket_update": 1644813744917,
-      "updated_at": 1644812638831
+      "ticket_start": 1001,
+      "ticket_end": 1050,
+      "ticket_now": 1383,
+      "ticket_update": 1644813749836,
+      "updated_at": 1644813775421
     },
     {
       "centre_id": 30,
@@ -206,8 +206,8 @@
       "name": "Kwai Chung Sports Ground Mobile Specimen Collection Station",
       "ticket_start": 901,
       "ticket_end": 920,
-      "ticket_now": 983,
-      "ticket_update": 1644813746869,
+      "ticket_now": 987,
+      "ticket_update": 1644813776900,
       "updated_at": 1644813576563
     },
     {

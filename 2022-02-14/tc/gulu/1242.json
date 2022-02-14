@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updated_at": "2022-02-14T12:42:16"
+    "updated_at": "2022-02-14T12:42:51"
   },
   "data": [
     {
@@ -26,8 +26,8 @@
       "name": "楓樹街遊樂場流動採樣站",
       "ticket_start": 1867,
       "ticket_end": 1916,
-      "ticket_now": 1945,
-      "ticket_update": 1644813734954,
+      "ticket_now": 1949,
+      "ticket_update": 1644813770986,
       "updated_at": 1644813649547
     },
     {
@@ -71,8 +71,8 @@
       "name": "慈雲山社區會堂流動採樣站",
       "ticket_start": 801,
       "ticket_end": 850,
-      "ticket_now": 1072,
-      "ticket_update": 1644813739924,
+      "ticket_now": 1076,
+      "ticket_update": 1644813768952,
       "updated_at": 1644813615182
     },
     {
@@ -98,8 +98,8 @@
       "name": "長沙灣體育館流動採樣站",
       "ticket_start": 761,
       "ticket_end": 800,
-      "ticket_now": 1698,
-      "ticket_update": 1644813735864,
+      "ticket_now": 1703,
+      "ticket_update": 1644813772901,
       "updated_at": 1644813462936
     },
     {
@@ -116,18 +116,18 @@
       "name": "建生社區會堂流動採樣站",
       "ticket_start": 950,
       "ticket_end": 999,
-      "ticket_now": 1465,
-      "ticket_update": 1644813711934,
+      "ticket_now": 1466,
+      "ticket_update": 1644813769991,
       "updated_at": 1644813072960
     },
     {
       "centre_id": -1,
       "name": "兆麟社區會堂社區檢測中心",
-      "ticket_start": 584,
-      "ticket_end": 585,
+      "ticket_start": 586,
+      "ticket_end": 587,
       "ticket_now": 602,
       "ticket_update": 1644808374000,
-      "updated_at": 1644813457585
+      "updated_at": 1644813773835
     },
     {
       "centre_id": 24,
@@ -161,8 +161,8 @@
       "name": "大圍新翠足球場流動採樣站",
       "ticket_start": 581,
       "ticket_end": 630,
-      "ticket_now": 2009,
-      "ticket_update": 1644813736915,
+      "ticket_now": 2014,
+      "ticket_update": 1644813771952,
       "updated_at": 1644813507760
     },
     {
@@ -179,18 +179,18 @@
       "name": "安定／友愛社區中心流動採樣站",
       "ticket_start": 1702,
       "ticket_end": 1711,
-      "ticket_now": 1751,
-      "ticket_update": 1644813738913,
+      "ticket_now": 1753,
+      "ticket_update": 1644813768937,
       "updated_at": 1644813737292
     },
     {
       "centre_id": -1,
       "name": "天瑞體育館流動採樣站",
-      "ticket_start": 951,
-      "ticket_end": 1000,
-      "ticket_now": 1381,
-      "ticket_update": 1644813738906,
-      "updated_at": 1644812638831
+      "ticket_start": 1001,
+      "ticket_end": 1050,
+      "ticket_now": 1383,
+      "ticket_update": 1644813749836,
+      "updated_at": 1644813775421
     },
     {
       "centre_id": 30,
@@ -206,8 +206,8 @@
       "name": "葵涌運動場流動採樣站",
       "ticket_start": 901,
       "ticket_end": 920,
-      "ticket_now": 982,
-      "ticket_update": 1644813740865,
+      "ticket_now": 986,
+      "ticket_update": 1644813766889,
       "updated_at": 1644813576563
     },
     {
