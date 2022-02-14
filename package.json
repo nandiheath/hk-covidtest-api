@@ -5,12 +5,23 @@
   "repository": "git@github.com:nandiheath/hk-covidtest-api.git",
   "author": "Nandi Wong <nandi0315@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "apidoc": "apidoc -v -i lib -o publish"
+  },
   "dependencies": {
+    "apidoc": "^0.50.4",
     "async": "^3.2.3",
     "mkdirp": "^1.0.4",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.34",
     "node-fetch": "2",
     "prettier": "^2.5.1"
+  },
+  "apidoc": {
+    "name": "hk-covidtest-api",
+    "version": "0.1.0",
+    "description": "Public API for querying semi-realtime Covid testing centre data",
+    "title": "HK Covid Testing Centre Open API",
+    "url": "https://nandiheath.github.io/hk-covidtest-api/"
   }
 }

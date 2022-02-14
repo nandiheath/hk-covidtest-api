@@ -1,0 +1,32 @@
+name: Build And Deploy
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+            .cache
+            public
+          key: ${{ runner.os }}-nodejs-modules-${{ hashFiles('**/yarn.lock') }}-v-${{ hashFiles('lib/*.js') }}-deploy-v2
+      - run: yarn install --frozen-lockfile
+      - run: yarn apidoc
+      - name: Update API doc
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          keep_files: true
+          user_name: 'gha-bot-deployer[bot]'
+          user_email: 'gha-bot-deployer[bot]@users.noreply.github.com'
