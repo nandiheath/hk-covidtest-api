@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "updated_at": "2022-02-14T12:42:16"
+  },
+  "data": [
+    {
+      "centre_id": 3,
+      "name": "Lei Tung Community Hall in Southern District",
+      "ticket_start": 316,
+      "ticket_end": 415,
+      "ticket_now": 455,
+      "ticket_update": 1644813321525,
+      "updated_at": 1644813096895
+    },
+    {
+      "centre_id": 2,
+      "name": "Shek Tong Tsui Sports Centre in Central and Western",
+      "ticket_start": 901,
+      "ticket_end": 910,
+      "ticket_now": 1000,
+      "ticket_update": 1644812630810,
+      "updated_at": 1644813463630
+    },
+    {
+      "centre_id": 32,
+      "name": "Maple Street Playground Mobile Specimen Collection Station",
+      "ticket_start": 1867,
+      "ticket_end": 1916,
+      "ticket_now": 1946,
+      "ticket_update": 1644813740968,
+      "updated_at": 1644813649547
+    },
+    {
+      "centre_id": 19,
+      "name": "Wong Tai Sin Square Mobile Specimen Collection Station",
+      "ticket_start": 851,
+      "ticket_end": 900,
+      "ticket_now": 1203,
+      "ticket_update": 1644810291492,
+      "updated_at": 1644808060129
+    },
+    {
+      "centre_id": 20,
+      "name": "Muk Lun Street Playground Mobile Specimen Collection Station",
+      "ticket_start": 3,
+      "ticket_end": 3,
+      "ticket_now": 110,
+      "ticket_update": 1644807574000,
+      "updated_at": 1644807502897
+    },
+    {
+      "centre_id": 4,
+      "name": "Henry G Leong Yaumatei Community Centre",
+      "ticket_start": 213,
+      "ticket_end": 262,
+      "ticket_now": 400,
+      "ticket_update": 1644813658855,
+      "updated_at": 1644808727865
+    },
+    {
+      "centre_id": 7,
+      "name": "Tung Tau Community Centre in Wong Tai Sin",
+      "ticket_start": 0,
+      "ticket_end": 0,
+      "ticket_now": 0,
+      "ticket_update": 1644785138000,
+      "updated_at": 1644785138000
+    },
+    {
+      "centre_id": 21,
+      "name": "Tsz Wan Shan Community Hall Mobile Specimen Collection Station",
+      "ticket_start": 801,
+      "ticket_end": 850,
+      "ticket_now": 1072,
+      "ticket_update": 1644813739924,
+      "updated_at": 1644813615182
+    },
+    {
+      "centre_id": 8,
+      "name": "To Kwa Wan Sports Centre in Kowloon City",
+      "ticket_start": 351,
+      "ticket_end": 400,
+      "ticket_now": 646,
+      "ticket_update": 1644812932118,
+      "updated_at": 1644807042542
+    },
+    {
+      "centre_id": 22,
+      "name": "Lai Kok Community Hall Mobile Specimen Collection Station",
+      "ticket_start": 781,
+      "ticket_end": 800,
+      "ticket_now": 1238,
+      "ticket_update": 1644813720902,
+      "updated_at": 1644813732972
+    },
+    {
+      "centre_id": 23,
+      "name": "Cheung Sha Wan Sports Centre Mobile Specimen Collection Station",
+      "ticket_start": 761,
+      "ticket_end": 800,
+      "ticket_now": 1699,
+      "ticket_update": 1644813741870,
+      "updated_at": 1644813462936
+    },
+    {
+      "centre_id": -1,
+      "name": "Yuen Long Town East Community Hall Mobile Specimen Collection Station",
+      "ticket_start": 587,
+      "ticket_end": 600,
+      "ticket_now": 600,
+      "ticket_update": 1644803254000,
+      "updated_at": 1644810840997
+    },
+    {
+      "centre_id": -1,
+      "name": "Kin Sang Community Hall Mobile Specimen Collection Station",
+      "ticket_start": 950,
+      "ticket_end": 999,
+      "ticket_now": 1465,
+      "ticket_update": 1644813711934,
+      "updated_at": 1644813072960
+    },
+    {
+      "centre_id": -1,
+      "name": "Siu Lun Community Hall Community Testing Centre",
+      "ticket_start": 584,
+      "ticket_end": 585,
+      "ticket_now": 602,
+      "ticket_update": 1644808374000,
+      "updated_at": 1644813457585
+    },
+    {
+      "centre_id": 24,
+      "name": "Tung Chung North Park Mobile Specimen Collection Station",
+      "ticket_start": 901,
+      "ticket_end": 950,
+      "ticket_now": 1704,
+      "ticket_update": 1644813715927,
+      "updated_at": 1644812847656
+    },
+    {
+      "centre_id": -1,
+      "name": "Tai Wo Sports Centre Community Testing Centre",
+      "ticket_start": 624,
+      "ticket_end": 647,
+      "ticket_now": 658,
+      "ticket_update": 1644813739930,
+      "updated_at": 1644813551128
+    },
+    {
+      "centre_id": 25,
+      "name": "Ma On Shan Recreation Ground Mobile Specimen Collection Station",
+      "ticket_start": 0,
+      "ticket_end": 0,
+      "ticket_now": 0,
+      "ticket_update": 1644785138000,
+      "updated_at": 1644785138000
+    },
+    {
+      "centre_id": 26,
+      "name": "Soccer Pitch, Sun Chui Estate, Tai Wai Mobile Specimen Collection Station",
+      "ticket_start": 581,
+      "ticket_end": 630,
+      "ticket_now": 2010,
+      "ticket_update": 1644813743924,
+      "updated_at": 1644813507760
+    },
+    {
+      "centre_id": 27,
+      "name": "Tai Wo Hau Estate Community Centre Mobile Specimen Collection Station",
+      "ticket_start": 91,
+      "ticket_end": 91,
+      "ticket_now": 92,
+      "ticket_update": 1644811432607,
+      "updated_at": 1644809836723
+    },
+    {
+      "centre_id": 28,
+      "name": "On Ting/Yau Oi Community Centre Mobile Specimen Collection Station",
+      "ticket_start": 1702,
+      "ticket_end": 1711,
+      "ticket_now": 1751,
+      "ticket_update": 1644813738913,
+      "updated_at": 1644813737292
+    },
+    {
+      "centre_id": -1,
+      "name": "Tin Shui Sports Centre Mobile Specimen Collection Station",
+      "ticket_start": 951,
+      "ticket_end": 1000,
+      "ticket_now": 1382,
+      "ticket_update": 1644813744917,
+      "updated_at": 1644812638831
+    },
+    {
+      "centre_id": 30,
+      "name": "Tsuen Wan Park Mobile Specimen Collection Station",
+      "ticket_start": 489,
+      "ticket_end": 504,
+      "ticket_now": 504,
+      "ticket_update": 1644803024155,
+      "updated_at": 1644803084104
+    },
+    {
+      "centre_id": 31,
+      "name": "Kwai Chung Sports Ground Mobile Specimen Collection Station",
+      "ticket_start": 901,
+      "ticket_end": 920,
+      "ticket_now": 983,
+      "ticket_update": 1644813746869,
+      "updated_at": 1644813576563
+    },
+    {
+      "centre_id": 16,
+      "name": "Wai Tsuen Sports Centre in Tsuen Wan",
+      "ticket_start": 791,
+      "ticket_end": 800,
+      "ticket_now": 1177,
+      "ticket_update": 1644813611737,
+      "updated_at": 1644813547525
+    }
+  ]
+}
